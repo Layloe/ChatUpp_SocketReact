@@ -18,3 +18,5 @@ const ChatRoomList = ({rooms, joinRoom}) => {
         </div>
     )
 }
+
+export default ChatRoomList
