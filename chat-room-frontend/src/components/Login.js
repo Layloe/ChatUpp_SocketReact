@@ -17,7 +17,7 @@ const LoginForm = ({onLogin}) => {
 
         const data = await respose.json()
 
-        onLogin(sata,token, data.username)
+        onLogin(data.token, data.username)
     }
 
     return (
